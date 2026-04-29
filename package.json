@@ -11,11 +11,15 @@
   },
   "jest": {
     "transform": {
-      "^.+\\.[t|j]sx?$": "babel-jest"
+      "^.+\\.[t|j]sx?$": "babel-jest",
+      "^.+\\.js$": "babel-jest"
     },
     "transformIgnorePatterns": [
-      "node_modules/(?!(bcrypt|uuid|joi|express|winston|@prisma)/)"
+      "node_modules/(?!(bcrypt|uuid|joi|express|winston|@prisma|@bcoe|v8-compile-cache)/)"
     ],
+    "moduleNameMapper": {
+      "^@prisma/client$": "<rootDir>/node_modules/.prisma/client/index.js"
+    },
     "moduleFileExtensions": [
       "js",
       "jsx",
