@@ -2,7 +2,7 @@
 
 ## 1. Tentang Project
 
-Project ini adalah implementasi RESTful API untuk sistem manajemen pengguna, kontak, dan alamat. API ini dibangun menggunakan Node.js dengan Express sebagai framework web dan Prisma sebagai ORM untuk interaksi dengan database.
+Project ini adalah implementasi RESTful API untuk sistem manajemen pengguna, kontak, dan alamat. API ini dibangun menggunakan Node.js dengan Express sebagai framework web dan Prisma sebagai ORM untuk interaksi dengan database. Saya mengikut intruksi atau tutorial dari chanel Youtube Programmer Zaman Now berikut link video tutorial https://youtu.be/6v8JXecArqE?si=1kaebn3TPWnwm42t
 
 ### Fitur Utama
 
